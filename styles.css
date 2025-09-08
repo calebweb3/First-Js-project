@@ -104,6 +104,9 @@ li input[type="checkbox"] {
   margin-right: 12px;
 }
 
+.checkbox {
+  margin-right: 12px;
+}
 
 .text {
   flex-grow: 1;
@@ -114,7 +117,7 @@ li input[type="checkbox"] {
 .completed {
   text-decoration: line-through;
   color: gray;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 

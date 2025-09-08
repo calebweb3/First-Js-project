@@ -10,8 +10,14 @@ function addtask() {
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
+    checkbox.className = 'checkbox';
+
     checkbox.addEventListener("change", () => {
-        li.classList.toggle("completed", checkbox.checked);
+        if (checkbox.checked) {
+            span.classList.add("completed");
+        } else {
+            li.classList.remove("completed");
+        }
     });
 
 
